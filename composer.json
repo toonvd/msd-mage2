@@ -1,0 +1,20 @@
+{
+	"name": "magestackday/msd-m2",
+	"license": "OSL 3.0",
+	"type": "project",
+	"description": "MageStackDay webshop on Magento 2.0",
+	"require": {
+		"magento/magento2ce": "2.0.0"
+	},
+	"require-dev": {
+	},
+	"authors":[
+		{"name": "Sander Mangel"}
+	],
+	"repositories": [
+		{
+			"type": "git",
+			"url": "git@github.com:magento/magento2.git"
+		}
+	]
+}
