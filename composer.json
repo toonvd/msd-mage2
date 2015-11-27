@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "magento/product-community-edition": "2.0.0"
+        "magento/product-community-edition": "2.0.0",
+        "sama/skipcart": "*"
     },
     "autoload": {
         "psr-4": {
@@ -30,6 +31,10 @@
         {
             "type": "composer",
             "url": "http://packages.magento.com/"
+        },
+        {
+        	"type":"git",
+        	"url": "https://github.com/sandermangel/magento2-skipcart.git"
         }
     ]
 }
