@@ -13,7 +13,8 @@
     ],
     "require": {
         "magento/product-community-edition": "2.0.0",
-        "sama/skipcart": "*"
+        "sama/skipcart": "*",
+        "msd/theme-frontend-default": "*"
     },
     "autoload": {
         "psr-4": {
@@ -35,6 +36,10 @@
         {
         	"type":"git",
         	"url": "https://github.com/sandermangel/magento2-skipcart.git"
+        },
+        {
+        	"type":"git",
+        	"url":"https://github.com/toonvd/msdtheme.git",
         }
     ]
 }
