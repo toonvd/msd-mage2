@@ -39,7 +39,7 @@
         },
         {
         	"type":"git",
-        	"url":"https://github.com/toonvd/msdtheme.git",
+        	"url":"https://github.com/toonvd/msdtheme.git"
         }
     ]
 }
