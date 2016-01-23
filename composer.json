@@ -1,6 +1,6 @@
 {
-	"name": "magestackday/msd-m2",
-	"description": "MageStackDay webshop on Magento 2.0",
+    "name": "magestackday/msd-m2",
+    "description": "MageStackDay webshop on Magento 2.0",
     "license": "OSL-3.0",
     "type": "project",
     "authors": [
@@ -12,9 +12,10 @@
         }
     ],
     "require": {
-        "magento/product-community-edition": "2.0.0",
+        "magento/project-community-edition": "2.0.1",
         "sama/skipcart": "*",
-        "msd/theme-frontend-default": "*"
+        "msd/theme-frontend-default": "*",
+        "msd/statistics": "*"
     },
     "autoload": {
         "psr-4": {
@@ -31,15 +32,20 @@
     "repositories": [
         {
             "type": "composer",
-            "url": "http://packages.magento.com/"
+            "url": "https://repo.magento.com/"
         },
         {
-        	"type":"git",
-        	"url": "https://github.com/sandermangel/magento2-skipcart.git"
+            "type":"git",
+            "url": "https://github.com/sandermangel/magento2-skipcart.git"
         },
         {
-        	"type":"git",
-        	"url":"https://github.com/toonvd/msdtheme.git"
+            "type":"git",
+            "url":"https://github.com/toonvd/msdtheme.git"
+        },
+        {
+            "type":"git",
+            "url":"https://github.com/magestackday/msd-statistics.git"
         }
     ]
 }
+
